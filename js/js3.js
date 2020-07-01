@@ -3,7 +3,7 @@ document.getElementById("form-button").addEventListener("click", function callba
     var validation = validate();
     if (validation == true) {
         showInput();
-    }
+    } 
 });
 function validate() {
     var name = document.getElementById("user_input");
