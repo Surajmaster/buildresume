@@ -2,7 +2,7 @@ document.getElementById("form-button").addEventListener("click", function callba
     event.preventDefault();
     var validation = validate();
     if (validation == true) {
-        printDiv('printableArea')
+        showInput();
     }
 });
 function validate() {
@@ -245,11 +245,11 @@ function printDiv(divName) {
 
     doc.save("Resume.pdf");
 
-    var printContents = document.getElementById(divName).innerHTML;
-    var originalContents = document.body.innerHTML;
-    document.body.innerHTML = printContents;
+    // var printContents = document.getElementById(divName).innerHTML;
+    // var originalContents = document.body.innerHTML;
+    // document.body.innerHTML = printContents;
     // window.print();
-    document.body.innerHTML = originalContents;
+    // document.body.innerHTML = originalContents;
 }
 
 
