@@ -2,7 +2,11 @@ document.getElementById("form-button").addEventListener("click", function callba
     event.preventDefault();
     var validation = validate();
     if (validation == true) {
+<<<<<<< HEAD
         showInput();
+=======
+       showInput();
+>>>>>>> 487be5cbb7c2f77c84691f99103b18b2b192b9f8
     }
 });
 function validate() {
