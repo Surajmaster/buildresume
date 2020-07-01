@@ -241,15 +241,8 @@ function printDiv(divName) {
     doc.setFontSize(12);
     var ob5 = doc.splitTextToSize(document.getElementById("user_input14").value, 190);
     doc.text(ob5, 10, 283);
-    // doc.text(10, 256, document.getElementById("cer").value);
-
+    
     doc.save("Resume.pdf");
-
-    // var printContents = document.getElementById(divName).innerHTML;
-    // var originalContents = document.body.innerHTML;
-    // document.body.innerHTML = printContents;
-    // window.print();
-    // document.body.innerHTML = originalContents;
 }
 
 
